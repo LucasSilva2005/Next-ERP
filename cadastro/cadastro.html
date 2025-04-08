@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Next ERP - Login/Cadastro</title>
+  <link rel="stylesheet" href="cadastro.css" />
+</head>
+<body>
+  <div class="container" id="mainContainer">
+    
+    <!-- Painel esquerdo (vai deslizar) -->
+    <div class="panel" id="panel">
+      <div class="panel-content">
+        <h2>Bem-vindo ao Next ERP</h2>
+        <p>Para se conectar ao nosso site, cadastre-se ou realize o login se já possuir uma conta.</p>
+        <button id="toggleBtn">Login</button>
+      </div>
+    </div>
+
+    <!-- Área de formulários -->
+    <div class="form-container">
+      <form id="registerForm" class="form">
+        <h2>Cadastro</h2>
+        <input type="text" placeholder="Nome" />
+        <input type="email" placeholder="E-mail" id="email" />
+        <input type="password" placeholder="Senha" id="password" />
+        <button type="submit">Cadastrar-se</button>
+      </form>
+
+      <form id="loginForm" class="form hidden">
+        <h2>Login</h2>
+        <input type="email" placeholder="E-mail" />
+        <input type="password" placeholder="Senha" />
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="cadastro.js"></script>
+</body>
+</html>

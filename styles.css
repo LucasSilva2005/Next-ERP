@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
- background-color: #00A859;
+ background-color: #00a859;
  color: white;
  padding: 80px 0;
  text-align: center;
@@ -80,13 +80,12 @@ header p {
 
 .feature i {
  margin-bottom: 15px;
- color: #00A859; /* Cor do ícone */
+ color: #00a859; /* Cor do ícone */
 }
 
 .feature i:hover {
  color: #ffbb00; /* Cor do ícone ao passar o mouse */
 }
-
 
 .feature:hover {
  transform: translateY(-10px);
@@ -137,12 +136,12 @@ header p {
 }
 
 #cadastro input:focus {
- border-color: #00A859;
+ border-color: #00a859;
 }
 
 #cadastro button {
  padding: 15px 30px;
- background-color: #00A859;
+ background-color: #00a859;
  color: white;
  border: none;
  font-size: 1.2rem;
@@ -165,52 +164,52 @@ footer {
 @media (max-width: 787px) {
  /* Reduzindo a largura da .container */
  .container {
-   width: 90%;
+  width: 90%;
  }
 
  /* Ajustando o tamanho do texto no header */
  header h1 {
-   font-size: 1.8em;
+  font-size: 1.8em;
  }
 
  header p {
-   font-size: 1.1em;
+  font-size: 1.1em;
  }
 
  /* Ajustando as funcionalidades */
  #features {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
 
  .feature {
-   width: 100%;
-   margin: 10px 0;
-   text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
  }
 
  .feature i {
-   font-size: 2.5em;
+  font-size: 2.5em;
  }
 
  /* Ajustando os inputs do formulário */
  #cadastro-form input {
-   width: 100%;
-   padding: 12px;
-   margin: 10px 0;
-   font-size: 1.1em;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1.1em;
  }
 
  /* Ajustando o botão do formulário */
  #cadastro-form button {
-   padding: 12px;
-   font-size: 1.2em;
+  padding: 12px;
+  font-size: 1.2em;
  }
 
  /* Ajustando o footer */
  footer {
-   text-align: center;
-   padding: 20px 0;
+  text-align: center;
+  padding: 20px 0;
  }
 }
