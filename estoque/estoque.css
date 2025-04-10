@@ -1,0 +1,54 @@
+/* estoque.css */
+
+/* Scroll mais suave */
+body {
+ scroll-behavior: smooth;
+}
+
+/* Scrollbar estilizada */
+::-webkit-scrollbar {
+ width: 8px;
+}
+::-webkit-scrollbar-thumb {
+ background-color: #cbd5e0;
+ border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+ background-color: #f7fafc;
+}
+
+/* Hover na tabela */
+tr:hover {
+ background-color: #f1f5f9;
+ transition: background-color 0.2s ease;
+}
+
+/* Badge de status */
+.status-ativo {
+ background-color: #22c55e;
+ color: white;
+ padding: 2px 8px;
+ border-radius: 9999px;
+ font-size: 0.75rem;
+}
+.status-inativo {
+ background-color: #ef4444;
+ color: white;
+ padding: 2px 8px;
+ border-radius: 9999px;
+ font-size: 0.75rem;
+}
+
+/* Botão de ação */
+.btn-acao {
+ background-color: #3b82f6;
+ color: white;
+ padding: 10px 16px;
+ border-radius: 8px;
+ font-size: 0.875rem;
+ font-weight: 500;
+ transition: background 0.2s ease;
+}
+.btn-acao:hover {
+ background-color: #2563eb;
+}
